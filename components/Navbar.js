@@ -1,17 +1,11 @@
 import React from 'react';
+import styles from "./../styles/Navbar.module.css";
 
 const Navbar = () => {
     return (
-        <div>
-            <ul>
-                <li>
-                    Inicio
-                </li>
-                <li>
-                    Perfil
-                </li>
-            </ul>
-        </div>
+        <nav className={styles.navbar}>
+            <h2>Lista de tareas compartida</h2>
+        </nav>
     );
 }
 
